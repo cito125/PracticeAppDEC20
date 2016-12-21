@@ -12,11 +12,11 @@ import static com.example.andresarango.practicetestdec20.model.HouseListings.*;
 /**
  * Created by andresarango on 12/20/16.
  */
-public class HouseView extends RecyclerView.ViewHolder{
+public class HouseViewHolder extends RecyclerView.ViewHolder{
     private TextView mPriceTV;
     private TextView mStyleTV;
     private TextView mLocationTV;
-    public HouseView(View itemView) {
+    public HouseViewHolder(View itemView) {
         super(itemView);
         mPriceTV = (TextView) itemView.findViewById(R.id.tv_house_price);
         mStyleTV = (TextView) itemView.findViewById(R.id.tv_house_style);
